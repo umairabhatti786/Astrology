@@ -1,4 +1,4 @@
-package com.livescorepro;
+package com.astrology;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

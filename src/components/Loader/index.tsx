@@ -1,6 +1,5 @@
 import { Text,View,ActivityIndicator } from 'react-native'
 import { colors } from '../../utils/colors'
-import { verticalScale } from 'react-native-size-matters'
 
 const Loader = () => {
     return (

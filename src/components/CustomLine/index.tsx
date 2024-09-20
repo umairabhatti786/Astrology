@@ -6,7 +6,7 @@ type Props = {}
 
 const CustomLine = ({backgroundColor,height,width}:any) => {
     return (
-        <View style={{ height:height ||1.5, width: width||"100%",backgroundColor: backgroundColor ||colors.gray20 }} />
+        <View style={{ height:height ||1.5, width: width||"100%",backgroundColor: backgroundColor ||colors.white }} />
     )
 }
 

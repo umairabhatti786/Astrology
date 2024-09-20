@@ -8,7 +8,7 @@ const ScreenLayout=({children,edges}:any)=> {
   return (
     <SafeAreaView
     edges={edges}
-    style={{...appStyles.Container,}}
+    style={{...appStyles.main,}}
     >
         {children}
 

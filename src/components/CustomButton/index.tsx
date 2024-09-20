@@ -1,11 +1,8 @@
-import {
-  TouchableOpacity,
-  ActivityIndicator,
-} from 'react-native';
-import CustomText from '../CustomText';
-import { colors } from '../../utils/colors';
-import { font } from '../../utils/font';
-import { scale, verticalScale } from 'react-native-size-matters';
+import { TouchableOpacity, ActivityIndicator } from "react-native";
+import CustomText from "../CustomText";
+import { colors } from "../../utils/colors";
+import { font } from "../../utils/font";
+import { scale, verticalScale } from "react-native-size-matters";
 type Props = {
   text?: string;
   onPress?: any;
@@ -48,24 +45,24 @@ const CustomButton = ({
       activeOpacity={0.3}
       style={{
         ...style,
-        width: width || '100%',
+        width: width || "100%",
         height: verticalScale(height || 41),
         backgroundColor: bgColor || colors.primary,
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: "center",
+        alignItems: "center",
         borderRadius: scale(borderRadius || 8),
-        borderWidth: borderWidth || -1,
-        borderColor: borderColor || colors.primary,
+        borderWidth: borderWidth,
+        borderColor: borderColor,
         paddingHorizontal: paddingHorizontal,
-  
-      }}>
+      }}
+    >
       <CustomText
-          text={text}
-          color={textColor || colors.white}
-          size={size ||  15}
-          fontWeight='600'
-          fontFam={fontFam || font.Poppins_SemiBold}
-        />
+        text={text}
+        color={textColor || colors.white}
+        size={size || 15}
+        fontWeight="600"
+        fontFam={fontFam || font.DMSans_Medium}
+      />
     </TouchableOpacity>
   );
 };

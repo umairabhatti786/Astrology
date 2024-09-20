@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.livescorepro"
+    namespace "com.astrology"
     defaultConfig {
-        applicationId "com.livescorepro"
+        applicationId "com.astrology"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
